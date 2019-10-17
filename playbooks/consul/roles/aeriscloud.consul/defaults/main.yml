@@ -1,0 +1,9 @@
+consul_version: 1.4.4
+consul_platform: linux_amd64
+consul_datacenter: dc
+consul_domain: consul
+consul_ui_enabled: false
+consul_template: config.json.j2
+consul_install_dir: /usr/local/bin
+consul_inventory_group_name: consul_server
+consul_bind_address: 0.0.0.0
